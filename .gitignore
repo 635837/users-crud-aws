@@ -1,0 +1,18 @@
+# SSH keys
+*.pem
+
+# Environment files
+.env
+*.env
+
+# Java / Maven
+target/
+*.log
+
+# Node / frontend (if applicable)
+node_modules/
+dist/
+build/
+
+# OS files
+.DS_Store
