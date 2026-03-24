@@ -3,10 +3,10 @@
 A full-stack CRUD application deployed on AWS.
 
 ## Architecture
-- Frontend: S3 + CloudFront
+- Frontend: React deployed on S3 + CloudFront
 - Authentication: Amazon Cognito (JWT)
 - API: API Gateway (HTTP API)
-- Backend: Spring Boot on EC2
+- Backend: Spring Boot deployed on EC2
 - Database: MySQL on AWS RDS
 
 ## Features
