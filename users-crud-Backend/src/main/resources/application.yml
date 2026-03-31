@@ -10,14 +10,22 @@ spring:
       maximum-pool-size: 10
       minimum-idle: 2
       pool-name: users-crud-hikari
+
   jpa:
     hibernate:
-      ddl-auto: none     # You already created the table with SQL. If you want Hibernate to create/update, use 'update'.
+      ddl-auto: none
     open-in-view: false
     show-sql: false
     properties:
       hibernate:
         "[format_sql]": true
+
+  # ✅ THIS IS THE MISSING PIECE
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_FN6gpbY4X
 
 management:
   endpoints:
