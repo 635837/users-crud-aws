@@ -14,6 +14,7 @@ A full-stack CRUD application deployed on AWS.
 - JWT-protected APIs
 - Full CRUD (Create, Read, Update, Delete)
 - CORS-safe browser communication
+- RBAC (Role Based Acess Control)
 
   ## DEMO
   https://github.com/user-attachments/assets/c901557b-c36b-4e45-94c9-c256271acc0d
